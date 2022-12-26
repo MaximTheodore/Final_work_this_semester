@@ -1,0 +1,17 @@
+D:\Магазин\Магазин\bin\Debug\net6.0\Магазин.exe
+D:\Магазин\Магазин\bin\Debug\net6.0\Магазин.deps.json
+D:\Магазин\Магазин\bin\Debug\net6.0\Магазин.runtimeconfig.json
+D:\Магазин\Магазин\bin\Debug\net6.0\Магазин.dll
+D:\Магазин\Магазин\bin\Debug\net6.0\Магазин.pdb
+D:\Магазин\Магазин\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Магазин\Магазин\obj\Debug\net6.0\Магазин.csproj.AssemblyReference.cache
+D:\Магазин\Магазин\obj\Debug\net6.0\Магазин.GeneratedMSBuildEditorConfig.editorconfig
+D:\Магазин\Магазин\obj\Debug\net6.0\Магазин.AssemblyInfoInputs.cache
+D:\Магазин\Магазин\obj\Debug\net6.0\Магазин.AssemblyInfo.cs
+D:\Магазин\Магазин\obj\Debug\net6.0\Магазин.csproj.CoreCompileInputs.cache
+D:\Магазин\Магазин\obj\Debug\net6.0\Магазин.csproj.CopyComplete
+D:\Магазин\Магазин\obj\Debug\net6.0\Магазин.dll
+D:\Магазин\Магазин\obj\Debug\net6.0\refint\Магазин.dll
+D:\Магазин\Магазин\obj\Debug\net6.0\Магазин.pdb
+D:\Магазин\Магазин\obj\Debug\net6.0\Магазин.genruntimeconfig.cache
+D:\Магазин\Магазин\obj\Debug\net6.0\ref\Магазин.dll
