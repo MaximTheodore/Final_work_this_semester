@@ -336,14 +336,14 @@ namespace Магазин
                             Console.SetCursorPosition(65, r);
                             Console.WriteLine(u[ii].time.ToShortDateString());
                             Console.SetCursorPosition(85, r);
-                            Console.WriteLine(u[ii].time.ToShortDateString());
-                         
+                            Console.WriteLine(u[ii].tf);
+                            r++;
                             int se = Arrow.Checker(3, r, u, "Buh.json");
                             if (se == -10)
                             {
                                 Buhoe_menu(g, rota);
                             }
-                            r++;
+                           
                         }
                     }
                 }
@@ -368,7 +368,7 @@ namespace Магазин
                             Console.SetCursorPosition(65, r);
                             Console.WriteLine(u[ii].time.ToShortDateString());
                             Console.SetCursorPosition(85, r);
-                            Console.WriteLine(u[ii].time.ToShortDateString());
+                            Console.WriteLine(u[ii].tf);
                           
                             int se = Arrow.Checker(3, r, u, "Buh.json");
                             if (se == -10)
@@ -388,7 +388,7 @@ namespace Магазин
                     int r = 3;
                     for (int ii = 0; ii < u.Count; ii++)
                     {
-                        if (u[ii].ID == id)
+                        if (u[ii].Zarplata == id)
                         {
                             Printed();
                             Console.SetCursorPosition(12, r);
@@ -401,14 +401,15 @@ namespace Магазин
                             Console.WriteLine(u[ii].time.ToShortDateString());
                             Console.SetCursorPosition(85, r);
                             Console.WriteLine(u[ii].tf);
-                         
+                            r++;
                             int se = Arrow.Checker(3, r, u, "Buh.json");
                             if (se == -10)
                             {
                                 Buhoe_menu(g, rota);
                             }
-                            r++;
+
                         }
+                       
                     }
                 }
                 if (sel == 6)
@@ -432,7 +433,7 @@ namespace Магазин
                             Console.SetCursorPosition(65, r);
                             Console.WriteLine(u[ii].time.ToShortDateString());
                             Console.SetCursorPosition(85, r);
-                            Console.WriteLine(u[ii].time.ToShortDateString());
+                            Console.WriteLine(u[ii].tf);
                           
                             int se = Arrow.Checker(3, r, u, "Buh.json");
                             if (se == -10)
@@ -464,7 +465,7 @@ namespace Магазин
                             Console.SetCursorPosition(65, r);
                             Console.WriteLine(u[ii].time.ToShortDateString());
                             Console.SetCursorPosition(85, r);
-                            Console.WriteLine(u[ii].time.ToShortDateString());
+                            Console.WriteLine(u[ii].tf);
                            
                             int se = Arrow.Checker(3, r, u, "Buh.json");
                             if (se == -10)

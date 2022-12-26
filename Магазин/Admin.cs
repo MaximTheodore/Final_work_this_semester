@@ -346,13 +346,14 @@ namespace Магазин
                             Console.WriteLine(u[ii].Password);
                             Console.SetCursorPosition(38, r);
                             Admin.Text(u[ii].Post, 0);
-                            
+                            r++;
+
                             int se = Arrow.Checker(3, r, u, "Logins.json");
                             if (se == -10)
                             {
                                 AdminLobby(name, d);
                             }
-                            r++;
+                            
                            
                         }
                     }
@@ -380,13 +381,14 @@ namespace Магазин
                             Console.WriteLine(u[ii].Password);
                             Console.SetCursorPosition(38, r);
                             Text(u[ii].Post, 0);
-                           
+                            r++;
+
                             int se = Arrow.Checker(3, r, u, "Logins.json");
                             if (se == -10)
                             {
                                 AdminLobby(name, d);
                             }
-                            r++;
+                           
                         }
                        
                     }

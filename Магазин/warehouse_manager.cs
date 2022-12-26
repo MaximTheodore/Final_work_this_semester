@@ -192,6 +192,8 @@ namespace Магазин
                         }
                         catch
                         {
+                            Console.SetCursorPosition(72, 11);
+                            Console.WriteLine("Недопустимое значение, попробуйте снова");
                             Console.SetCursorPosition(8, 2);
                             tovar.ID = Convert.ToInt32(Update(e, "  ID: "));
 
