@@ -268,7 +268,6 @@ namespace Магазин
 
                         if (u[ii].ID == id)
                         {
-
                             print();
                             Console.SetCursorPosition(8, r);
                             Console.WriteLine(u[ii].ID);
@@ -278,13 +277,13 @@ namespace Магазин
                             Console.WriteLine(u[ii].Password);
                             Console.SetCursorPosition(38, r);
                             Admin.Text(u[ii].Post, 0);
-                           
+                            r++;
                             int se = Arrow.Checker(3, r, u, "Logins.json");
                             if (se == -10)
                             {
                                 AdminLobby(name, d);
                             }
-                            r++;
+
                         }
                     }
                 }

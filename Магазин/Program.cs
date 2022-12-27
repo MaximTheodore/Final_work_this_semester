@@ -59,7 +59,7 @@
                         {
                             for (int i = 0; i < rtx.Count; i++)
                             {
-                                if (rtx[i].Post == user.Post)
+                                if (rtx[i].ID == user.ID)
                                 {
                                     Admin.AdminLobby(rtx[i].Name, rtx[i].Post);
                                     a = false;
@@ -72,7 +72,7 @@
                             a = true;
                             for (int i = 0; i < rtx.Count; i++)
                             {
-                                if (rtx[i].Post == user.Post)
+                                if (rtx[i].ID == user.ID)
                                 {
                                     Cashier.Cashier_Menu(rtx[i].Name, rtx[i].Post);
                                     a = false;
@@ -86,7 +86,7 @@
                             a = true;
                             for (int i = 0; i < rtx.Count; i++)
                             {
-                                if (rtx[i].Post == user.Post)
+                                if (rtx[i].ID == user.ID)
                                 {
                                     Manager.Manager_menu(rtx[i].Name, rtx[i].Post);
                                     a = false;
@@ -100,7 +100,7 @@
                             a = true;
                             for (int i = 0; i < rtx.Count; i++)
                             {
-                                if (rtx[i].Post == user.Post)
+                                if (rtx[i].ID == user.ID)
                                 {
                                     warehouse_manager.Sklad_menu(rtx[i].Name, rtx[i].Post);
                                     a = false;
@@ -114,7 +114,7 @@
                             a = true;
                             for (int i = 0; i < rtx.Count; i++)
                             {
-                                if (rtx[i].Post == user.Post)
+                                if (rtx[i].ID == user.ID)
                                 {
                                     Accountant.Buhoe_menu(rtx[i].Name, rtx[i].Post);
                                     a = false;
